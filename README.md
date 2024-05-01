@@ -37,6 +37,7 @@
     >
     > Selain itu, pembagian kode ke dalam modul-modul kecil yang berfokus pada *function* tertentu dapat membantu dalam *maintenance* dan menambah kode dengan lebih mudah.
 <br>
+
 6. **In the `MyPaymentService` implementation, what additional steps might be necessary to handle more complex payment processing logic?**
     > Menurut saya, langkah tambahan yang dapat dilakukan untuk meng-*handle payment processing logic* yang lebih kompleks diantaranya adalah melakukan *validasi request* untuk mengecek semua informasi yang dibutuhkan terdapat pada *request* dan dalam format yang benar. Selain itu, dapat juga menambahkan *error handling* jika terjadi kesalahan pada proses yang dilakukan. Kita juga dapat menyimpan *transaction* yang dilakukan untuk kebutuhan audit jika diperlukan.
 <br>
